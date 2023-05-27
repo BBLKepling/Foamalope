@@ -1,0 +1,7 @@
+<loadFolders>
+  <v1.4>
+    <li>1.4</li>
+    <li IfModActive="LimeTreeSnake.Ammunition">1.4/LTS_Ammunition</li>
+    <li IfModActive="Mlie.YayosCombat3">1.4/Yayo_Combat</li>
+  </v1.4>
+</loadFolders>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+
+      <li Class="PatchOperationAdd" MayRequire="VanillaExpanded.VWE">
+        <xpath>Defs/ThingDef[defName="VWE_Gun_FireExtinguisher"]/weaponTags</xpath>
+        <value>
+          <li>ammoDef_BBLKFirefoam/100/1</li>
+        </value>
+      </li>
+
+      <li Class="PatchOperationConditional" MayRequire="mosi.FirefoamThings">
+        <xpath>Defs/ThingDef[defName="Mosi_FirefoamLauncher"]/weaponTags</xpath>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="Mosi_FirefoamLauncher"]</xpath>
+          <value>
+            <weaponTags />
+          </value>
+        </nomatch>
+      </li>
+
+      <li Class="PatchOperationAdd" MayRequire="mosi.FirefoamThings">
+        <xpath>Defs/ThingDef[defName="Mosi_FirefoamLauncher"]/weaponTags</xpath>
+        <value>
+          <li>ammoDef_BBLKFirefoam/10/5</li>
+        </value>
+      </li>
+
+      <li Class="PatchOperationConditional" MayRequire="mosi.FirefoamThings">
+        <xpath>Defs/ThingDef[defName="Mosi_FirefoamSprayer"]/weaponTags</xpath>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="Mosi_FirefoamSprayer"]</xpath>
+          <value>
+            <weaponTags />
+          </value>
+        </nomatch>
+      </li>
+
+      <li Class="PatchOperationAdd" MayRequire="mosi.FirefoamThings">
+        <xpath>Defs/ThingDef[defName="Mosi_FirefoamSprayer"]/weaponTags</xpath>
+        <value>
+          <li>ammoDef_BBLKFirefoam/60/1</li>
+        </value>
+      </li>
+
+    </operations>
+  </Operation>
+
+</Patch>

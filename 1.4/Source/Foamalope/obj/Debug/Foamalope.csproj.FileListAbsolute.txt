@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Foamalope\Assemblies\Foamalope.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Foamalope\Source\Foamalope\obj\Debug\Foamalope.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Foamalope\Source\Foamalope\obj\Debug\Foamalope.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Foamalope\Source\Foamalope\obj\Debug\Foamalope.dll

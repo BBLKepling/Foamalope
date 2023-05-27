@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- No underscore in defName for Yayo Combat Compat -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>BBLKFirefoam</defName>
+    <label>firefoam</label>
+    <description>A fire retardant chemical. Comes in a liquid form that does little on it's own, but when properly dispersed it creates a foam that extingishes fires nearly instantly.</description>
+    <graphicData>
+      <texPath>Things/BBLK_Firefoam/BBLK_Firefoam</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <stackLimit>150</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <techLevel>Industrial</techLevel>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>0.25</MarketValue>
+      <Mass>0.05</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <modExtensions>
+      <li Class="Ammunition.DefModExtensions.AmmunitionExtension" MayRequire="LimeTreeSnake.Ammunition" />
+    </modExtensions>
+  </ThingDef>
+
+</Defs>

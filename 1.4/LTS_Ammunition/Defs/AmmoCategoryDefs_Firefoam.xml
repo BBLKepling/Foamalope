@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <Ammunition.Defs.AmmoCategoryDef>
+    <defName>BBLK_LTS_Firefoam</defName>
+    <label>Firefoam</label>
+    <ammoType>Explosive</ammoType>
+    <ammoDefs>
+      <li>BBLKFirefoam</li>
+    </ammoDefs>
+    <includeWeaponDefs>
+      <li MayRequire="VanillaExpanded.VWE">VWE_Gun_FireExtinguisher</li>
+      <li MayRequire="mosi.FirefoamThings">Mosi_FirefoamLauncher</li>
+      <li MayRequire="mosi.FirefoamThings">Mosi_FirefoamSprayer</li>
+    </includeWeaponDefs>
+    <excludeWeaponDefs />
+  </Ammunition.Defs.AmmoCategoryDef>
+
+</Defs>
