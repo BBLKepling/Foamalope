@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-
+<!-- Pack -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Apparel_FirefoampopPack"]/comps/li[@Class="CompProperties_Reloadable"]/ammoDef</xpath>
     <value>
@@ -14,7 +14,7 @@
       <BBLKFirefoam>30</BBLKFirefoam>
     </value>
   </Operation>
-
+<!-- Shell -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Shell_Firefoam"]/costList/Steel</xpath>
     <value>
@@ -22,12 +22,28 @@
       <BBLKFirefoam>15</BBLKFirefoam>
     </value>
   </Operation>
-
+<!-- Popper -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="FirefoamPopper"]/costList/Steel</xpath>
     <value>
       <Steel>30</Steel>
       <BBLKFirefoam>45</BBLKFirefoam>
+    </value>
+  </Operation>
+<!-- Turret -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Turret_FoamTurret"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+    <value>
+      <thingDefs>
+        <li>BBLKFirefoam</li>
+      </thingDefs>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Turret_FoamTurret"]/costList/Chemfuel</xpath>
+    <value>
+      <BBLKFirefoam>140</BBLKFirefoam>
     </value>
   </Operation>
 
