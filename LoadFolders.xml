@@ -1,7 +1,14 @@
 <loadFolders>
   <v1.4>
+    <li>Common</li>
     <li>1.4</li>
-    <li IfModActive="LimeTreeSnake.Ammunition">1.4/LTS_Ammunition</li>
-    <li IfModActive="Mlie.YayosCombat3">1.4/Yayo_Combat</li>
+    <li IfModActive="LimeTreeSnake.Ammunition">Common/LTS_Ammunition</li>
+    <li IfModActive="Mlie.YayosCombat3">Common/Yayo_Combat</li>
   </v1.4>
+  <v1.5>
+    <li>Common</li>
+    <li>1.5</li>
+    <li IfModActive="LimeTreeSnake.Ammunition">Common/LTS_Ammunition</li>
+    <li IfModActive="Mlie.YayosCombat3">Common/Yayo_Combat</li>
+  </v1.5>
 </loadFolders>

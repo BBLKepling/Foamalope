@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[
+      defName="BorealForest" or 
+      defName="Tundra" or 
+      defName="ColdBog" or 
+      defName="ZBiome_AlpineMeadow" or 
+      defName="ZBiome_GlacialShield"
+    ]/wildAnimals</xpath>
+    <value>
+      <BBLK_Foamalope>0.1</BBLK_Foamalope>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TraderKindDef/stockGenerators[li[thingDef="Chemfuel"]]</xpath>
+    <value>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>BBLKFirefoam</thingDef>
+        <countRange>100~200</countRange>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>
